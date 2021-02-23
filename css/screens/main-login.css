@@ -1,0 +1,35 @@
+.login-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 45px 600px;
+}
+
+.login-form {
+  width: 330px;
+}
+
+.login-form button {
+  width: 100%;
+}
+
+.login-form__title {
+  font-size: 37px;
+  height: 30px;
+  margin-bottom: 40px;
+}
+
+.login-information {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.login-information input {
+  width: 322px;
+}
+
+.more-information {
+  display: flex;
+  justify-content: center;
+}
