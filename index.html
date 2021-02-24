@@ -9,50 +9,61 @@
     <title>Tesla - Sign in</title>
 </head>
 
-<body>
-    <div class="login-bar">
-        <div class="login-bar__column">
-            <a href="model-x.html">
-                <svg class="tesla-icon" viewBox="0 0 342 35" xmlns="http://www.w3.org/2000/svg">
-                <path d="M0 .1a9.7 9.7 0 007 7h11l.5.1v27.6h6.8V7.3L26 7h11a9.8 9.8 0 007-7H0zm238.6 0h-6.8v34.8H263a9.7 9.7 0 006-6.8h-30.3V0zm-52.3 6.8c3.6-1 6.6-3.8 7.4-6.9l-38.1.1v20.6h31.1v7.2h-24.4a13.6 13.6 0 00-8.7 7h39.9v-21h-31.2v-7h24zm116.2 28h6.7v-14h24.6v14h6.7v-21h-38zM85.3 7h26a9.6 9.6 0 007.1-7H78.3a9.6 9.6 0 007 7zm0 13.8h26a9.6 9.6 0 007.1-7H78.3a9.6 9.6 0 007 7zm0 14.1h26a9.6 9.6 0 007.1-7H78.3a9.6 9.6 0 007 7zM308.5 7h26a9.6 9.6 0 007-7h-40a9.6 9.6 0 007 7z" class="tds-icon-fill--secondary"></path>
-                </svg>
-            </a>
-
-        </div>
-        <div class="login-bar__column">
-            <i class="fas fa-globe"></i>
-            <span>ko-KR</span>
-        </div>
-    </div>
-
-    <div class="login-div">
-        <form class="login-form">     
-            <div class="login-form__title">
-                <span>로그인</span>
+<body class="login-screen">
+    <header>
+        <div class="login-bar">
+            <div class="login-bar__column">
+                <a href="model-x.html">
+                    <svg class="tesla-icon" viewBox="0 0 342 35" >
+                        <path d="M0 .1a9.7 9.7 0 007 7h11l.5.1v27.6h6.8V7.3L26 7h11a9.8 9.8 0 007-7H0zm238.6 0h-6.8v34.8H263a9.7 9.7 0 006-6.8h-30.3V0zm-52.3 6.8c3.6-1 6.6-3.8 7.4-6.9l-38.1.1v20.6h31.1v7.2h-24.4a13.6 13.6 0 00-8.7 7h39.9v-21h-31.2v-7h24zm116.2 28h6.7v-14h24.6v14h6.7v-21h-38zM85.3 7h26a9.6 9.6 0 007.1-7H78.3a9.6 9.6 0 007 7zm0 13.8h26a9.6 9.6 0 007.1-7H78.3a9.6 9.6 0 007 7zm0 14.1h26a9.6 9.6 0 007.1-7H78.3a9.6 9.6 0 007 7zM308.5 7h26a9.6 9.6 0 007-7h-40a9.6 9.6 0 007 7z" ></path>
+                    </svg>
+                </a>
+    
             </div>
-            <div class="login-information" >
-                <div class="login-information__email">
-                    <span>이메일 주소</span>
-                    <i class="fas fa-info-circle"></i>
+            <div class="login-bar__column">
+                <i class="fas fa-globe"></i>
+                <span>ko-KR</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="login-div">
+            <form class="login-form">     
+                <div class="login-form__title">
+                    <span>로그인</span>
                 </div>
-                <input required type="text" />           
-                <span>비밀번호</span>
-                <input required type="password" />
-                <button>로그인</button>
-            <a href="#">이메일 주소를 잊으셨나요?</a>
-            <div class="mini-bar"></div>
-            <a href="#">비밀번호를 잊으셨나요?</a>
-            </div>
-
-            <span>또는</span>
-            <button>계정 만들기</button>
-        </form>
-    </div>
+                <div class="login-information" >
+                    <div class="login-information__email">
+                        <span>이메일 주소</span>
+                        <i class="fas fa-info-circle"></i>
+                    </div>
+                    <input type="text" />           
+                    <span>비밀번호</span>
+                    <input type="password" />
+                    <button>로그인</button>
+                    <div class="missed-information">
+                        <a href="#">이메일 주소를 잊으셨나요?</a>
+                    <div class="mini-bar"></div>
+                    <a href="#">비밀번호를 잊으셨나요?</a>
+                    </div>
+                </div>
+    
+                <div class="long-bar">
+                    <span>또는</span>
+                </div>
+                
+                <button>계정 만들기</button>
+            </form>
+        </div>
+    </main>
     
     <footer class="more-information">
-        <a href="#">Tesla © 2021</a>
-        <a href="#">개인정보 처리방침 및 법적고지</a>
-        <a href="#">연락처</a>
+        <div class="more-information__column">
+            <a href="#">Tesla © 2021</a>
+            <a href="#">개인정보 처리방침 및 법적고지</a>
+            <a href="#">연락처</a>
+        </div>
     </footer>
 
 

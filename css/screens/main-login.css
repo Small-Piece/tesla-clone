@@ -1,16 +1,15 @@
+.login-screen {
+  position: relative;
+}
+
 .login-div {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 45px 600px;
+  justify-content: center;
+  margin: 30px 600px;
 }
 
 .login-form {
   width: 330px;
-}
-
-.login-form button {
-  width: 100%;
 }
 
 .login-form__title {
@@ -23,13 +22,106 @@
   display: flex;
   flex-direction: column;
   position: relative;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.login-information__email i {
+  margin-left: 2px;
+}
+
+.login-information__email,
+.login-form span:nth-child(3) {
+  margin-left: 15px;
+  margin-bottom: 10px;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 15px;
+}
+
+.login-form input,
+.login-form button {
+  padding: 10px;
 }
 
 .login-information input {
+  background-color: #f4f4f4;
   width: 322px;
+  font-size: 20px;
+  margin-bottom: 30px;
+  border-radius: 50px;
+  border: none;
+  outline: none;
 }
 
-.more-information {
+.login-form button {
+  width: 100%;
+}
+
+.login-information button {
+  background-color: #3e6ae1;
+  border-radius: 50px;
+  margin-bottom: 7px;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.login-form button:last-child {
+  background-color: #ffffff;
+  border: 3px solid #171a20;
+  border-radius: 50px;
+  margin-bottom: 110px;
+}
+
+.missed-information {
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+
+.mini-bar {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 1px;
+  height: 10px;
+  margin: 0px 10px;
+}
+
+.login-information a {
+  color: rgba(0, 0, 0, 0.7);
+  text-decoration-color: rgba(0, 0, 0, 0.7);
+  font-size: 13px;
+}
+
+.long-bar {
+  background-color: rgba(0, 0, 0, 0.1);
+  height: 1px;
+  width: 100%;
+  margin: 55px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.long-bar span {
+  display: block;
+  padding: 0px 10px;
+  background-color: #ffffff;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.more-information__column {
+  display: flex;
+  justify-content: center;
+  bottom: 10px;
+}
+
+.more-information a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 13px;
+}
+
+.more-information a:nth-child(2) {
+  margin: 0px 15px;
 }
