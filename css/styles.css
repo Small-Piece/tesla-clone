@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap");
-@import "css/reset.css";
+@import "reset.css";
+@import "variables.css";
 
 /* components */
 @import "components/login-bar.css";
