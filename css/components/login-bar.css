@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 12px 15px;
+  padding: 3px 15px;
 }
 
 .tesla-icon {
@@ -11,4 +11,14 @@
 
 .login-bar__column span {
   font-weight: 700;
+}
+
+.login-bar__column:last-child {
+  padding: 10px;
+  border-radius: 50px;
+  transition: background-color 0.5s ease-in-out;
+}
+
+.login-bar__column:last-child:hover {
+  background-color: #efefef;
 }

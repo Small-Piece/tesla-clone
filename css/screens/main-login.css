@@ -6,7 +6,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 30px 600px;
+  margin: 40px 600px;
 }
 
 .login-form,
@@ -40,7 +40,10 @@
   font-size: 15px;
 }
 
-.login-form input,
+.login-form input {
+  padding: 8px;
+}
+
 .login-form button,
 .seperated-login-form button {
   padding: 10px;
@@ -52,8 +55,13 @@
   font-size: 20px;
   margin-bottom: 30px;
   border-radius: 50px;
-  border: none;
+  border: 1.5px solid var(--invisable);
   outline: none;
+  transition: border 0.4s ease-in-out;
+}
+
+.login-information input:focus {
+  border: 1.5px solid rgba(0, 0, 0, 0.2);
 }
 
 .login-form button,
@@ -69,6 +77,11 @@
   border: none;
   outline: none;
   cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.login-information button:hover {
+  background-color: #3457b1;
 }
 
 .seperated-login-form button {
@@ -76,10 +89,10 @@
   color: var(--black);
   border: 3px solid var(--black);
   border-radius: 50px;
-  margin-bottom: 130px;
+  margin-bottom: 100px;
   outline: none;
   cursor: pointer;
-  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  transition: background-color 0.2s ease-in-out, color 0.3s ease-in-out;
 }
 
 .seperated-login-form button:hover {
@@ -100,10 +113,16 @@
   margin: 0px 10px;
 }
 
-.login-information a {
+.missed-information a {
   color: var(--gray);
   text-decoration-color: var(--gray);
+  border-bottom: 2px solid var(--invisable);
   font-size: 13px;
+  transition: border-bottom 0.5s ease-in-out;
+}
+
+.missed-information a:hover {
+  border-bottom: 2px solid var(--black);
 }
 
 .long-bar {
@@ -130,8 +149,15 @@
 
 .more-information a {
   text-decoration: none;
+  border-bottom: 2px solid var(--invisable);
   color: var(--gray);
   font-size: 13px;
+  transition: all 0.5s ease-in-out;
+}
+
+.more-information a:hover {
+  font-weight: 600;
+  border-bottom: 2px solid var(--black);
 }
 
 .more-information a:nth-child(2) {
