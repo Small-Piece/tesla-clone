@@ -1,0 +1,17 @@
+.menu-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 10px 15px 20px;
+}
+
+.tesla-icon {
+  color: var(--white);
+}
+
+.menu-bar__cars a {
+  margin-right: 20px;
+}
+
+.menu-bar__others a:nth-child(2) {
+  margin: 0px 20px;
+}
