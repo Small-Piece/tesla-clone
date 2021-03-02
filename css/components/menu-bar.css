@@ -4,8 +4,11 @@
   padding: 15px 10px 15px 20px;
 }
 
-.tesla-icon {
+.menu-bar__logo a {
+  font-family: "Gotham Medium", "FB New Gothic", -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   color: var(--white);
+  font-size: 5px;
 }
 
 .menu-bar__cars a {
