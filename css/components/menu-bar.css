@@ -1,14 +1,38 @@
 .menu-bar {
   display: flex;
-  justify-content: space-between;
-  padding: 15px 10px 15px 20px;
+  justify-content: center;
+  padding: 17px 10px 15px 20px;
 }
 
-.menu-bar__logo a {
-  font-family: "Gotham Medium", "FB New Gothic", -apple-system,
-    BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+.menu-bar__logo,
+.menu-bar__others {
+  width: 30%;
+}
+
+.menu-bar__cars {
+  width: 40%;
+}
+
+.menu-bar__cars {
+  display: flex;
+  justify-content: center;
+}
+
+.menu-bar__others {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.model__tesla-icon {
+  block-size: 10px;
+}
+
+.menu-bar a {
+  text-decoration: none;
   color: var(--white);
-  font-size: 5px;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 600;
 }
 
 .menu-bar__cars a {
@@ -16,5 +40,5 @@
 }
 
 .menu-bar__others a:nth-child(2) {
-  margin: 0px 20px;
+  margin: 0px 15px;
 }
