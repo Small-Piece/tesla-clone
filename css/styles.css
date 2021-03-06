@@ -4,11 +4,11 @@
 
 /* components */
 @import "components/menu-bar.css";
+@import "components/model-info.css";
 
 /* screens */
 @import "screens/login-bar.css";
 @import "screens/main-login.css";
-@import "screens/models.css";
 
 body {
   font-family: "Gotham Medium", "FB New Gothic", -apple-system,

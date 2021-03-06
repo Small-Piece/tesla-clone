@@ -1,0 +1,68 @@
+.models-screen {
+  background-image: url(../../images/models.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.models-information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 75px;
+  margin-bottom: 30px;
+}
+
+.models-information__name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 440px;
+}
+
+.models-information__name span:first-child {
+  color: #171a20;
+  font-size: 43px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.models-information__name span:last-child {
+  color: #171a20;
+  font-size: 17px;
+  opacity: 0.9;
+}
+
+.models-information__many {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.models-information__many--column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 20px;
+}
+
+.models-information__many--column {
+  color: var(--white);
+}
+
+.models-information__many--column span:first-child {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.models-information__many--column span:last-child {
+  font-size: 12px;
+}
+
+.models-information__test {
+  color: var(--white);
+  font-size: 12px;
+}
