@@ -1,11 +1,11 @@
-.models-screen {
+.model-screen {
   background-image: url(../../images/models.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
-.models-information {
+.model-information {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -13,27 +13,27 @@
   margin-bottom: 30px;
 }
 
-.models-information__name {
+.model-information__name {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-bottom: 440px;
 }
 
-.models-information__name span:first-child {
-  color: #171a20;
+.model-information__name span:nth-child(1) {
+  color: var(--black);
   font-size: 43px;
   font-weight: 600;
   margin-bottom: 10px;
 }
 
-.models-information__name span:last-child {
-  color: #171a20;
+.model-information__name span:nth-child(2) {
+  color: var(--black);
   font-size: 17px;
   opacity: 0.9;
 }
 
-.models-information__many {
+.model-information__many {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -41,28 +41,47 @@
   margin-bottom: 30px;
 }
 
-.models-information__many--column {
+.model-information__many--column {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0px 20px;
+  padding: 0px 24px;
 }
 
-.models-information__many--column {
+.model-information__many--column {
   color: var(--white);
 }
 
-.models-information__many--column span:first-child {
+.model-information__many--column span:first-child {
   font-size: 30px;
   font-weight: 600;
   margin-bottom: 10px;
 }
 
-.models-information__many--column span:last-child {
+.model-information__many--column span:last-child {
   font-size: 12px;
 }
 
-.models-information__test {
+.model-information__many--column button {
+  padding: 9px 32px;
+  border: 3px solid var(--white);
+  border-radius: 50px;
+  outline: none;
+  background-color: transparent;
+  color: var(--white);
+  font-size: 12px;
+  font-weight: 550;
+  text-align: center;
+  cursor: pointer;
+  transition: all ease-in-out;
+}
+
+.model-information__many--column button:hover {
+  background-color: var(--white);
+  color: var(--black);
+}
+
+.model-information__test {
   color: var(--white);
   font-size: 12px;
 }
