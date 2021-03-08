@@ -1,0 +1,13 @@
+.models-screen {
+  background-image: url(../../images/models.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.model3-screen {
+  background-image: url(../../images/model3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0% 35%;
+}

@@ -1,16 +1,9 @@
-.model-screen {
-  background-image: url(../../images/models.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
 .model-information {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 75px;
-  margin-bottom: 30px;
+  margin-bottom: 28px;
 }
 
 .model-information__name {
@@ -21,14 +14,12 @@
 }
 
 .model-information__name span:nth-child(1) {
-  color: var(--black);
   font-size: 43px;
   font-weight: 600;
   margin-bottom: 10px;
 }
 
 .model-information__name span:nth-child(2) {
-  color: var(--black);
   font-size: 17px;
   opacity: 0.9;
 }
