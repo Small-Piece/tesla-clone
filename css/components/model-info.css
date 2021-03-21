@@ -54,7 +54,7 @@
 }
 
 .model-information__many--column button {
-  padding: 9px 32px;
+  padding: 9px 33px;
   border: 3px solid var(--white);
   border-radius: 50px;
   outline: none;
@@ -75,4 +75,32 @@
 .model-information__test {
   color: var(--white);
   font-size: 12px;
+}
+
+.under-arrow {
+  margin-top: 15px;
+  color: var(--white);
+  font-weight: 100;
+  animation: dancingarrow 2s ease-in-out infinite;
+}
+
+@keyframes dancingarrow {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+  65% {
+    transform: translateY(5px);
+  }
+  80% {
+    transform: translateY(0px);
+  }
+  90% {
+    transform: translateY(2px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
 }
