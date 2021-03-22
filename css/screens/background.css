@@ -11,3 +11,10 @@
   background-size: cover;
   background-position: 0% 35%;
 }
+
+.modelx-screen {
+  background-image: url(../../images/modelx.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0% 40%;
+}

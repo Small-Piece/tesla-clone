@@ -1,0 +1,24 @@
+.modelx__menu-bar a {
+  color: var(--black);
+  transition: color 0.1s ease-in-out;
+}
+
+.modelx__menu-bar a:not(.icon):hover {
+  color: var(--white);
+}
+
+.modelx--menu-bar__cars a:focus,
+.modelx--menu-bar__others a:not(.icon):focus {
+  border: 1px dotted var(--black);
+  transition: all 0.2s ease-in-out;
+}
+
+.modelx--menu-bar__cars a:focus:hover,
+.modelx--menu-bar__others a:not(.icon):focus:hover {
+  color: var(--white);
+  border: 1px dotted var(--white);
+}
+
+.modelx-information__many--column {
+  padding-right: 32px;
+}
