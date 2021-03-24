@@ -11,8 +11,9 @@
 @import "screens/main-login.css";
 @import "screens/background.css";
 @import "screens/models.css";
-@import "screens/model3.css";
 @import "screens/modelx.css";
+@import "screens/modely.css";
+@import "screens/model3y-info.css";
 
 body {
   font-family: "Gotham Medium", "FB New Gothic", -apple-system,

@@ -1,0 +1,11 @@
+.model3y-information__name span {
+  color: var(--white);
+}
+
+.model3y-information__many--column:nth-child(3) {
+  margin-left: 20px;
+}
+
+.model3y-information__many--column span:nth-child(1) {
+  font-size: 32px;
+}

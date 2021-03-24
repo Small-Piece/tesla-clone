@@ -18,3 +18,10 @@
   background-size: cover;
   background-position: 0% 40%;
 }
+
+.modely-screen {
+  background-image: url(../../images/modely.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0% 50%;
+}
