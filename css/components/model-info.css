@@ -10,7 +10,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 440px;
+  margin-bottom: 50%;
 }
 
 .model-information__name span:nth-child(1) {
