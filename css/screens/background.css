@@ -25,3 +25,10 @@
   background-size: cover;
   background-position: 0% 50%;
 }
+
+.cyber-screen {
+  background-image: url(../../images/cyber.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0% 50%;
+}
