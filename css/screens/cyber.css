@@ -1,0 +1,19 @@
+.cyber__menu-bar a {
+    color: var(--black);
+}
+
+.cyber__menu-bar a:not(.icon):hover {
+    color: var(--cyber-gray);
+}
+
+.cyber--menu-bar__cars a:focus,
+.cyber--menu-bar__others a:not(.icon):focus {
+  border: 1px dotted var(--cyber-gray);
+  transition: all 0.1s ease-in-out;
+}
+
+.cyber--menu-bar__cars a:focus:hover,
+.cyber--menu-bar__others a:not(.icon):focus:hover {
+  color: var(--cyber-gray);
+  border: 1px dotted var(--cyber-gray);
+}

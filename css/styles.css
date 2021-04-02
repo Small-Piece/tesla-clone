@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Caesar+Dressing&display=swap');
+
 @import "reset.css";
 @import "variables.css";
 
@@ -14,6 +16,7 @@
 @import "screens/modelx.css";
 @import "screens/modely.css";
 @import "screens/model3y-info.css";
+@import "screens/cyber.css";
 
 body {
   font-family: "Gotham Medium", "FB New Gothic", -apple-system,
@@ -22,4 +25,9 @@ body {
   margin: 0;
   height: 100vh;
   width: 100vw;
+}
+
+.cyber-information__name span {
+  font-family: 'Caesar Dressing', cursive;
+  font-size: 50px;
 }
