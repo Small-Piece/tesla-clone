@@ -32,3 +32,10 @@
   background-size: cover;
   background-position: 0% 50%;
 }
+
+.power-screen {
+  background-image: url(../../images/power.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0% 50%;
+}

@@ -1,0 +1,17 @@
+.power-information__many--column {
+    margin-left: 75px;
+}
+
+.power-information__many--column:nth-child(4) {
+    margin-left: 30px;
+}
+
+.power-information__many--column:nth-child(2) span:first-child {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.power-information__many--column button {
+    padding: 9px 70px;
+}
+
