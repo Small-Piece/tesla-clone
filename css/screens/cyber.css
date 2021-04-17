@@ -58,7 +58,7 @@
 }
 
 .cyber-information__many--column button:hover {
- animation: SparklingButton 0.75s ease-in-out forwards;
+  animation: SparklingButton 0.75s ease-in-out forwards; 
 }
 
 
