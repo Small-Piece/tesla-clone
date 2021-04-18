@@ -1,5 +1,5 @@
 .model3y-information__name span {
-  color: transparent;
+  color: var(--white);
 }
 
 .model3y-information__many--column {

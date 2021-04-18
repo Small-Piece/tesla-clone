@@ -28,7 +28,20 @@
 
 .cyber-information__name span:first-child {
   font-size: 85px;
-  opacity: 0.8;
+  opacity: 0;
+  animation: CyberNameUp 0.2s ease-out forwards;
+  animation-delay: 0.4s;
+}
+
+@keyframes CyberNameUp {
+  from {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 0.9;
+  }
 }
 
 .cyber-information__many {
@@ -43,6 +56,18 @@
   font-weight: 550;
   letter-spacing: 1.5px;
   margin-bottom: 50px;
+  animation: CyberInfoUp 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940);
+}
+
+@keyframes CyberInfoUp {
+  from {
+    transform: translateY(60px);
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    color: var(--cyber-white);
+  }
 }
 
 .cyber-information__many--column button {
@@ -55,6 +80,18 @@
   font-weight: 550;
   text-align: center;
   cursor: pointer;
+  animation: CyberBtnUp 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940);
+}
+
+@keyframes CyberBtnUp {
+  from {
+    transform: translateY(70px);
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    color: var(--white);
+  }
 }
 
 .cyber-information__many--column button:hover {

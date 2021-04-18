@@ -1,4 +1,5 @@
 .eyp-animation__name span {
+  opacity: 0;
   animation: EypNameUp 0.4s ease-out forwards;
   animation-delay: 0.4s;
 }
@@ -6,12 +7,10 @@
 @keyframes EypNameUp {
     from {
       transform: translateY(30px);
-      opacity: 0;
     }
     to {
       transform: none;
       color: var(--white);
-      opacity: 1;
     }
   }
 
@@ -77,5 +76,21 @@
     }
 }
 
+.cyber-information__name {
+  animation: CyberNameUp 0.4s ease-out forwards;
+  animation-delay: 0.4s;
+}
+
+
+@keyframes EypNameUp {
+  from {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 0.8;
+  }
+}
 
 
