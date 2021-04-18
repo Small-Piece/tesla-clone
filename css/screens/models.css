@@ -2,6 +2,3 @@
   color: var(--black);
 }
 
-.model-information__name span:nth-child(2) {
-  color: var(--black);
-}

@@ -13,4 +13,17 @@
 
 .modely-information__many--column:nth-child(3) {
   margin-left: 30px;
+  opacity: 0;
+  animation: AnimationforY  0.25s ease-in-out forwards;
+  animation-delay: 0.3s;
+}
+
+@keyframes AnimationforY {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    color: var(--white);
+  }
 }

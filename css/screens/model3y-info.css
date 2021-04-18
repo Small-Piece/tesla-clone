@@ -1,5 +1,9 @@
 .model3y-information__name span {
-  color: var(--white);
+  color: transparent;
+}
+
+.model3y-information__many--column {
+  opacity: 0;
 }
 
 .model3y-information__many--column:nth-child(3) {
@@ -9,3 +13,5 @@
 .model3y-information__many--column span:nth-child(1) {
   font-size: 32px;
 }
+
+

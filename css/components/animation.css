@@ -1,0 +1,81 @@
+.eyp-animation__name span {
+  animation: EypNameUp 0.4s ease-out forwards;
+  animation-delay: 0.4s;
+}
+
+@keyframes EypNameUp {
+    from {
+      transform: translateY(30px);
+      opacity: 0;
+    }
+    to {
+      transform: none;
+      color: var(--white);
+      opacity: 1;
+    }
+  }
+
+.eyp-animation {
+  animation: model3yInfoAppear 0.25s ease-in-out forwards;
+}
+
+@keyframes model3yInfoAppear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    color: var(--white);
+  }
+}
+
+.eyp-animation:nth-child(2) {
+    animation-delay: 0.15s;
+  }
+  
+  .eyp-animation:nth-child(3) {
+    animation-delay: 0.3s;
+  }
+  
+  .eyp-animation:nth-child(4) {
+    animation-delay: 0.45s;
+  }
+
+.sx-animation span:first-child {
+    color: transparent;
+    animation: sx1NameUp 0.4s ease-out forwards;
+    animation-delay: 0.4s;
+}
+
+@keyframes sx1NameUp {
+    from {
+        transform: translateY(30px);
+        opacity: 0;
+    }
+    to {
+        transform: none;
+        color: var(--black);
+        opacity: 1;
+    }
+}
+
+.sx-animation span:nth-child(2) {
+    color: transparent;
+    animation: sx2NameUp 0.4s ease-out forwards;
+    animation-delay: 0.4s;
+}
+
+@keyframes sx2NameUp {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    to {
+        transform: none;
+        color: var(--black);
+        opacity: 1;
+    }
+}
+
+
+

@@ -1,5 +1,6 @@
 .power-information__many--column {
     margin-left: 75px;
+    opacity: 0;
 }
 
 .power-information__many--column:nth-child(4) {
